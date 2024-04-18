@@ -9,8 +9,7 @@
     "dev": "storybook dev -p 6006",
     "build-vite": "tsc && vite build",
     "deploy-storybook": "storybook-to-ghpages",
-    "preview": "vite preview",
-    "build-storybook": "storybook build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@ignite-ui/eslint-config": "*",
