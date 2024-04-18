@@ -3,7 +3,7 @@ name: Deply docs
 on:
   push:
     branches:
-    - main
+    - master
 
 jobs:
   buold-and-deploy:
