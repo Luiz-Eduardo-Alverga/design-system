@@ -1,4 +1,4 @@
-name: Deply docs
+name: Deploy docs
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
     - master
 
 jobs:
-  buold-and-deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
